@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // GitHub checkout using credentials (HTTPS)
-                git url: 'https://github.com/stephsc30/My-Sample-Nodejs-App.git', credentialsId: 'your-github-credentials-id'
+                git url: 'https://github.com/stephsc30/My-Sample-Nodejs-App.git', credentialsId: 'GitHub-Credentials'
             }
         }
 
